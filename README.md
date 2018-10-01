@@ -66,23 +66,11 @@
 ### Code Structure :
 
 #### Example :
-
-```
-/*
-Author      : Piyush Raj
-Synopsis    : Prints "Hello, world!"
-How2Compile : gcc helloworld.c -o helloworld.out
-Usage       : ./helloworld.out
-gcc version : 5.4.0
-*/
-
-#include  <stdio.h>
-
-void main()
-{
-    printf("Hello, world!\n"); // Prints Hello, world!
+public class application{
+public static void main(String[] args){
+System.out.println("Hello world");
 }
-```
+}
 
 *See the code-base to get more insight about the template.*
 
